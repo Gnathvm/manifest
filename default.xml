@@ -7,15 +7,9 @@
   <default revision="refs/tags/android-10.0.0_r17"
            remote="aosp"
            sync-j="10" />
-  <remote fetch="git://codeaurora.org/quic/la" 
-          name="caf" 
-          review="codeaurora.org"/>
-  <default remote="caf" 
-           revision="refs/tags/LA.UM.8.3.r1-06900-sdm845.0"
-           sync-j="16" />
            
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
   <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" />   
   <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
-  <project groups="pdk-cw-fs,pdk-fs,q-fs-release" name="platform/frameworks/base" path="frameworks/base-caf" revision="refs/heads/ks-aosp.lnx.2.0.r1-rel"/>  
+  <project path="system/core" name="platform/system/core" groups="pdk" />  
   </manifest>
