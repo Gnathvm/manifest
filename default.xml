@@ -12,7 +12,7 @@
   <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" />   
   <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
   <project path="system/core" name="platform/system/core" groups="pdk" /> 
-  <project path="system/core" name="platform/system/core" groups="pdk" />
+  <project path="system/vold" name="platform/system/vold" groups="pdk" />
   <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" />
   <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Telephony" name="platform/packages/services/Telephony" groups="pdk-cw-fs,pdk-fs" />
