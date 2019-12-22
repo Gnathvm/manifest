@@ -11,7 +11,8 @@
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
   <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" />   
   <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
-  <project path="system/core" name="platform/system/core" groups="pdk" />  
+  <project path="system/core" name="platform/system/core" groups="pdk" /> 
+  <project path="system/core" name="platform/system/core" groups="pdk" />
   <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" />
   <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Telephony" name="platform/packages/services/Telephony" groups="pdk-cw-fs,pdk-fs" />
@@ -21,4 +22,7 @@
   <project path="hardware/interfaces" name="platform/hardware/interfaces" groups="pdk" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
+  <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" >
+  <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
+  <project path="build/make" name="platform/build" groups="pdk" />
   </manifest>
