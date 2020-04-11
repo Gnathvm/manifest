@@ -8,5 +8,5 @@
            remote="aosp"
            sync-j="10" />
            
-  <project path="packages/apps/Car/Launcher" name="platform/packages/apps/Car/Launcher" groups="pdk-fs" />
+  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" />
   </manifest>
